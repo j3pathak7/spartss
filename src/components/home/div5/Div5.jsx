@@ -35,7 +35,6 @@ const Div5 = () => {
       "Row 1 Data 4",
       "Row 1 Data 5",
       "Row 1 Data 6",
-      "Row 1 Data 7",
     ],
     [
       "Row 2 Data 1",
@@ -44,7 +43,6 @@ const Div5 = () => {
       "Row 2 Data 4",
       "Row 2 Data 5",
       "Row 2 Data 6",
-      "Row 2 Data 7",
     ],
     [
       "Row 3 Data 1",
@@ -53,7 +51,6 @@ const Div5 = () => {
       "Row 3 Data 4",
       "Row 3 Data 5",
       "Row 3 Data 6",
-      "Row 3 Data 7",
     ],
     [
       "Row 4 Data 1",
@@ -62,7 +59,6 @@ const Div5 = () => {
       "Row 4 Data 4",
       "Row 4 Data 5",
       "Row 4 Data 6",
-      "Row 4 Data 7",
     ],
     [
       "Row 5 Data 1",
@@ -71,7 +67,6 @@ const Div5 = () => {
       "Row 5 Data 4",
       "Row 5 Data 5",
       "Row 5 Data 6",
-      "Row 5 Data 7",
     ],
     [
       "Row 6 Data 1",
@@ -80,9 +75,9 @@ const Div5 = () => {
       "Row 6 Data 4",
       "Row 6 Data 5",
       "Row 6 Data 6",
-      "Row 6 Data 7",
     ],
   ];
+
   return (
     <div className="flex flex-col">
       <div className="flex flex-col md:flex-row justify-between border-b border-gray-300 items-center">
