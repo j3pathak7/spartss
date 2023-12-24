@@ -48,18 +48,20 @@ const Div5 = () => {
   ];
   return (
     <div className="flex flex-col">
-      <div className="flex justify-between border-b border-gray-300 items-center">
+      <div className="flex flex-col md:flex-row justify-between border-b border-gray-300 items-center">
         <div className="p-4">UPCOMING SCHEDULE</div>
-        <div className="flex text-sm text-white items-center">
+        <div className="flex text-sm text-white items-center flex-wrap">
           <CiFilter size={24} style={{ color: "black" }} />
-          <button className="bg-gray-600  m-2 p-2 rounded-xl w-24">All</button>
-          <button className="bg-gray-400 m-2 p-2 rounded-xl w-24">
+          <button className="bg-gray-600 m-2 p-2 rounded-xl w-full md:w-24">
+            All
+          </button>
+          <button className="bg-gray-400 m-2 p-2 rounded-xl w-full md:w-24">
             Classes
           </button>
-          <button className="bg-gray-400 m-2 p-2 rounded-xl w-24">
+          <button className="bg-gray-400 m-2 p-2 rounded-xl w-full md:w-24">
             Meetings
           </button>
-          <button className="bg-gray-400 m-2 p-2 rounded-xl w-24">
+          <button className="bg-gray-400 m-2 p-2 rounded-xl w-full md:w-24">
             Events
           </button>
         </div>

@@ -11,7 +11,7 @@ const Navbar = () => {
     <div className="flex flex-col md:flex-row items-center w-full p-3">
       <div className="w-full md:w-1/4 lg:w-1/6 text-xl flex flex-col items-center mb-2 md:mb-0">
         <img
-          src="src/assets/spartslogo.png"
+          src="/assets/spartslogo.png"
           alt="Sparts Logo"
           className="mx-auto mb-2"
           style={{ width: "150px" }}
@@ -40,7 +40,7 @@ const Navbar = () => {
         <div className="text-right text-xl flex items-center">
           <div className="hidden md:block px-4">
             <img
-              src="src/assets/dplogo.png"
+              src="/assets/dplogo.png"
               alt="DP Logo"
               style={{ width: "50px" }}
             />
