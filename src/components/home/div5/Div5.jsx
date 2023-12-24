@@ -4,17 +4,19 @@ import { TbDots } from "react-icons/tb";
 
 const DynamicTable = ({ data }) => {
   return (
-    <table>
+    <table className="w-full">
       <tbody>
         {data.map((row, rowIndex) => (
-          <tr key={rowIndex}>
+          <tr key={rowIndex} className="border-b">
             {/* Checkbox cell */}
-            <td key={`cell-checkbox-${rowIndex}`}>
+            <td key={`cell-checkbox-${rowIndex}`} className="p-2">
               <input type="checkbox" />
             </td>
             {/* Data cells */}
             {row.map((cell, cellIndex) => (
-              <td key={`cell-${rowIndex}-${cellIndex}`}>{cell}</td>
+              <td key={`cell-${rowIndex}-${cellIndex}`} className="p-2">
+                {cell}
+              </td>
             ))}
           </tr>
         ))}
@@ -44,7 +46,42 @@ const Div5 = () => {
       "Row 2 Data 6",
       "Row 2 Data 7",
     ],
-    // Add more rows as needed
+    [
+      "Row 3 Data 1",
+      "Row 3 Data 2",
+      "Row 3 Data 3",
+      "Row 3 Data 4",
+      "Row 3 Data 5",
+      "Row 3 Data 6",
+      "Row 3 Data 7",
+    ],
+    [
+      "Row 4 Data 1",
+      "Row 4 Data 2",
+      "Row 4 Data 3",
+      "Row 4 Data 4",
+      "Row 4 Data 5",
+      "Row 4 Data 6",
+      "Row 4 Data 7",
+    ],
+    [
+      "Row 5 Data 1",
+      "Row 5 Data 2",
+      "Row 5 Data 3",
+      "Row 5 Data 4",
+      "Row 5 Data 5",
+      "Row 5 Data 6",
+      "Row 5 Data 7",
+    ],
+    [
+      "Row 6 Data 1",
+      "Row 6 Data 2",
+      "Row 6 Data 3",
+      "Row 6 Data 4",
+      "Row 6 Data 5",
+      "Row 6 Data 6",
+      "Row 6 Data 7",
+    ],
   ];
   return (
     <div className="flex flex-col">
