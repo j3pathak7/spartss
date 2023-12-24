@@ -8,19 +8,19 @@ const Home = () => {
   return (
     <>
       <div className="flex flex-col gap-2">
-        <div className="flex ">
-          <div className="py-4 w-1/2 bg-white mx-2">
+        <div className="flex flex-col sm:flex-row">
+          <div className="py-4 w-full sm:w-1/2 bg-white mb-2 sm:mb-0">
             <Div1 />
           </div>
-          <div className=" w-1/2 bg-white">
+          <div className="w-full sm:w-1/2 bg-white">
             <Div2 />
           </div>
         </div>
-        <div className="flex ">
-          <div className="w-1/2 mx-2 bg-white">
+        <div className="flex flex-col sm:flex-row">
+          <div className="w-full sm:w-1/2 bg-white mb-2 sm:mb-0">
             <Div3 />
           </div>
-          <div className="w-1/2 bg-white">
+          <div className="w-full sm:w-1/2 bg-white">
             <Div4 />
           </div>
         </div>
