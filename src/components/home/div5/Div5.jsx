@@ -48,27 +48,23 @@ const Div5 = () => {
   ];
   return (
     <div className="flex flex-col">
-      <div className="lg:flex lg:justify-between lg:items-center border-b border-gray-300 p-4">
-        <div className="text-xl lg:text-2xl font-bold mb-2 lg:mb-0">
-          UPCOMING SCHEDULE
+      <div className="flex justify-between border-b border-gray-300 items-center">
+        <div className="p-4">UPCOMING SCHEDULE</div>
+        <div className="flex text-sm text-white items-center">
+          <CiFilter size={24} style={{ color: "black" }} />
+          <button className="bg-gray-600  m-2 p-2 rounded-xl w-24">All</button>
+          <button className="bg-gray-400 m-2 p-2 rounded-xl w-24">
+            Classes
+          </button>
+          <button className="bg-gray-400 m-2 p-2 rounded-xl w-24">
+            Meetings
+          </button>
+          <button className="bg-gray-400 m-2 p-2 rounded-xl w-24">
+            Events
+          </button>
         </div>
-        <div className="lg:flex lg:items-center">
-          <div className="hidden lg:block text-sm text-white items-center space-x-2">
-            <CiFilter size={24} style={{ color: "black" }} />
-            <button className="bg-gray-600 m-2 p-2 rounded-xl w-24">All</button>
-            <button className="bg-gray-400 m-2 p-2 rounded-xl w-24">
-              Classes
-            </button>
-            <button className="bg-gray-400 m-2 p-2 rounded-xl w-24">
-              Meetings
-            </button>
-            <button className="bg-gray-400 m-2 p-2 rounded-xl w-24">
-              Events
-            </button>
-          </div>
-          <div className="m-2 mx-4 lg:hidden">
-            <TbDots size={32} />
-          </div>
+        <div className="m-2 mx-4">
+          <TbDots size={32} />
         </div>
       </div>
       <DynamicTable data={sampleData} />

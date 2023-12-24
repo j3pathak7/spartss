@@ -9,7 +9,7 @@ const Home = () => {
     <>
       <div className="flex flex-col gap-2">
         <div className="flex flex-col sm:flex-row">
-          <div className="py-4 w-full sm:w-1/2 bg-white mb-2 sm:mb-0">
+          <div className="py-4 w-full sm:w-1/2 bg-white mb-2 mr-2 sm:mb-0">
             <Div1 />
           </div>
           <div className="w-full sm:w-1/2 bg-white">
@@ -17,7 +17,7 @@ const Home = () => {
           </div>
         </div>
         <div className="flex flex-col sm:flex-row">
-          <div className="w-full sm:w-1/2 bg-white mb-2 sm:mb-0">
+          <div className="w-full sm:w-1/2 bg-white mb-2 mr-2 sm:mb-0">
             <Div3 />
           </div>
           <div className="w-full sm:w-1/2 bg-white">
