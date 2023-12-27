@@ -47,7 +47,7 @@ const Div3 = () => {
             ))}
           </Pie>
           <Tooltip />
-          <Legend />
+          <Legend wrapperStyle={{ fontSize: "12px" }} />
         </PieChart>
       </div>
     </div>

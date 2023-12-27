@@ -24,18 +24,20 @@ const Navbar = () => {
         <div className="text-base">Here is a summary of your business</div>
       </div>
 
-      <div className="flex items-center justify-end flex-1">
-        <div className="pr-2">
-          <FaCog
-            size={50}
-            className="text-gray-600 bg-gray-300 rounded-full p-2"
-          />
-        </div>
-        <div className="pr-2">
-          <FaBell
-            size={50}
-            className="text-gray-600 bg-gray-300 rounded-full p-2"
-          />
+      <div className="flex items-center justify-between flex-1">
+        <div className="flex">
+          <div className="pr-4">
+            <FaCog
+              size={50}
+              className="text-gray-600 bg-gray-300 rounded-full p-2"
+            />
+          </div>
+          <div className="pr-4">
+            <FaBell
+              size={50}
+              className="text-gray-600 bg-gray-300 rounded-full p-2"
+            />
+          </div>
         </div>
         <div className="text-right text-xl flex items-center">
           <div className="hidden md:block px-4">
